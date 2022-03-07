@@ -54,6 +54,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* hero style */ 
+
 .hero {
     height: 800px;
     width: 100%;
@@ -62,6 +64,35 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
+
+
+/* style for main content */ 
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.content-section img {
+    max-height: 200px;
+}
+
+/* class selectors to apply float property */ 
 
 .float-left {
     float: left;
@@ -73,11 +104,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* style for aside section */
 
 aside {
     margin-right: 20px;
@@ -108,25 +135,7 @@ aside {
     max-width: 150px;
 }
 
-.content-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-section img {
-    max-height: 200px;
-}
-
-
-.content-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer style */ 
 
 footer {
     padding: 30px;
